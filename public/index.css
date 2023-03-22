@@ -1,0 +1,123 @@
+body   {
+  background-color: #EEEEEE;
+}
+
+header {
+  padding: .5rem 2rem;
+  font-size: larger;
+}
+
+.navbar-brand {
+  font-size: x-large;
+  font-weight: bolder;
+  color: #F96666 !important;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  width: 45%;
+}
+
+.jumbotron {
+  margin: 0;
+  border: solid;
+  border-color:  black;
+  background-color: transparent;
+  padding: 10%;
+  padding-left: 20%;
+  background-size: 110%;
+  background-position-x: 35%;
+  background-position-y: 15%;
+}
+
+.jumbotron .container {  
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .jumbotron {
+    background-size: auto;
+    background-position-y: 25%;
+    background-position-x: 20%;
+    padding-right: 0%;
+    padding-top: 20%;
+  }
+
+  .container{
+    width: auto;
+  }
+}
+
+.container h1 {
+  font-weight: bold;
+}
+
+.container .lead {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.lead-button {
+  background-color: #829460;
+  border-color: #64724a;
+}
+
+.lead-button:hover {
+  background-color: #f87d7d;
+  border-color: black !important;    
+}
+.lead-button:active {
+  background-color: #f87d7d !important;
+  border-color: black !important;
+}
+
+section {
+  padding: 5rem 5rem;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-text {
+  white-space: pre-line;
+}
+
+.card img {
+  align-self: center;
+  scale: 90%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: solid;
+  border-color: black;
+}
+
+.card-deck{
+  margin-top: 10px;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: .5rem;
+}
+
+.restaurants {
+  background-color: #829460;
+}
+
+.restaurants h1 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+footer {
+  padding: 2%;
+  color: grey;
+}
